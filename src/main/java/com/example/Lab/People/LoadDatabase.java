@@ -9,7 +9,6 @@ import org.springframework.context.annotation.Configuration;
 @Slf4j
 public class LoadDatabase {
 
-
     @Bean
     CommandLineRunner initDatabase(PersonRepository repository) throws Exception{
         return args -> {
