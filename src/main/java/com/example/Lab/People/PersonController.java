@@ -12,13 +12,10 @@ import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
 
 @RestController
-//@RequestMapping("people")
 public class PersonController {
 
     private final PersonRepository repository;
 
-   // @Autowired
-        //    private final PersonService service;
 
     PersonController(PersonRepository repository){
         this.repository = repository;
